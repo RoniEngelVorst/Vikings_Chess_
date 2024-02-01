@@ -243,6 +243,7 @@ public class GameLogic implements  PlayableLogic{
     }
 
     public void win(ConcretePlayer p){
+        p.countWins++;
         sortMoves(p);
         System.out.println("***************************************************************************");
         sortKills(p);
