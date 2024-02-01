@@ -1,7 +1,7 @@
 public class ConcretePlayer implements Player{
 
     private boolean player;
-    private int countWins = 0;
+    public int countWins = 0;
 
     public ConcretePlayer(boolean player){
         this.player = player;
